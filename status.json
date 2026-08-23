@@ -1,23 +1,16 @@
 {
-  "updated_at": "2026-08-23T14:58:21Z",
-  "overall": "warning",
-  "issues": [
-    {
-      "code": "cardinal_restarted",
-      "severity": "warning",
-      "first_seen": "2026-08-23T13:37:41Z",
-      "evidence": {}
-    }
-  ],
+  "updated_at": "2026-08-23T15:13:33Z",
+  "overall": "ok",
+  "issues": [],
   "cardinal": {
     "running": true,
-    "rss_mb": 125.2,
-    "restarts_1h": 1,
+    "rss_mb": 149.3,
+    "restarts_1h": 0,
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
   "system": {
-    "ram_available_mb": 608.6,
-    "swap_used_percent": 5.7,
+    "ram_available_mb": 573.0,
+    "swap_used_percent": 5.6,
     "disk_used_percent": 57.3,
     "root_read_only": false
   },
