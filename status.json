@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-23T13:22:34Z",
+  "updated_at": "2026-08-23T13:32:37Z",
   "overall": "warning",
   "issues": [
     {
@@ -7,7 +7,15 @@
       "severity": "warning",
       "first_seen": "2026-08-20T15:03:21Z",
       "evidence": {
-        "count_1h": 89
+        "count_1h": 96
+      }
+    },
+    {
+      "code": "telegram_connection_errors",
+      "severity": "warning",
+      "first_seen": "2026-08-23T13:32:37Z",
+      "evidence": {
+        "count_1h": 5
       }
     },
     {
@@ -15,19 +23,19 @@
       "severity": "warning",
       "first_seen": "2026-08-18T21:55:48Z",
       "evidence": {
-        "count_1h": 2433
+        "count_1h": 2392
       }
     }
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 323.2,
+    "rss_mb": 163.8,
     "restarts_1h": 0,
     "started_at": "Tue 2026-08-04 09:56:37 UTC"
   },
   "system": {
-    "ram_available_mb": 367.0,
-    "swap_used_percent": 16.3,
+    "ram_available_mb": 549.3,
+    "swap_used_percent": 21.0,
     "disk_used_percent": 57.2,
     "root_read_only": false
   },
