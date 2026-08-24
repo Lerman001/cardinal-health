@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-08-24T15:30:28Z",
+  "updated_at": "2026-08-24T15:40:41Z",
   "overall": "ok",
   "issues": [],
   "cardinal": {
     "running": true,
-    "rss_mb": 129.3,
+    "rss_mb": 129.1,
     "restarts_1h": 0,
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
   "system": {
-    "ram_available_mb": 569.8,
+    "ram_available_mb": 549.0,
     "swap_used_percent": 4.7,
     "disk_used_percent": 57.4,
     "root_read_only": false
