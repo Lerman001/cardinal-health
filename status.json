@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T10:36:01Z",
+  "updated_at": "2026-08-24T10:46:16Z",
   "overall": "warning",
   "issues": [
     {
@@ -7,13 +7,13 @@
       "severity": "warning",
       "first_seen": "2026-08-24T10:20:31Z",
       "evidence": {
-        "count_1h": 4
+        "count_1h": 8
       }
     }
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 156.4,
+    "rss_mb": 156.1,
     "restarts_1h": 0,
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
