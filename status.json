@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T02:23:41Z",
+  "updated_at": "2026-08-24T02:33:51Z",
   "overall": "warning",
   "issues": [
     {
@@ -7,7 +7,7 @@
       "severity": "warning",
       "first_seen": "2026-08-24T01:37:11Z",
       "evidence": {
-        "count_1h": 19
+        "count_1h": 16
       }
     },
     {
@@ -23,18 +23,18 @@
       "severity": "warning",
       "first_seen": "2026-08-24T01:37:11Z",
       "evidence": {
-        "count_1h": 46
+        "count_1h": 40
       }
     }
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 156.5,
+    "rss_mb": 156.4,
     "restarts_1h": 0,
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
   "system": {
-    "ram_available_mb": 560.6,
+    "ram_available_mb": 569.3,
     "swap_used_percent": 4.7,
     "disk_used_percent": 57.3,
     "root_read_only": false
