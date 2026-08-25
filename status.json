@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25T00:45:11Z",
+  "updated_at": "2026-08-25T00:55:21Z",
   "overall": "ok",
   "issues": [],
   "cardinal": {
@@ -9,9 +9,9 @@
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
   "system": {
-    "ram_available_mb": 584.1,
+    "ram_available_mb": 576.8,
     "swap_used_percent": 4.7,
-    "disk_used_percent": 57.5,
+    "disk_used_percent": 57.4,
     "root_read_only": false
   },
   "telegram": {
