@@ -1,22 +1,13 @@
 {
-  "updated_at": "2026-08-26T02:59:51Z",
+  "updated_at": "2026-08-26T03:10:11Z",
   "overall": "warning",
   "issues": [
-    {
-      "code": "telegram_probe_failed",
-      "severity": "warning",
-      "first_seen": "2026-08-26T02:59:51Z",
-      "evidence": {
-        "failures": 2,
-        "probe": "connect_timeout"
-      }
-    },
     {
       "code": "telegram_connect_timeouts",
       "severity": "warning",
       "first_seen": "2026-08-26T02:08:21Z",
       "evidence": {
-        "count_1h": 17
+        "count_1h": 14
       }
     },
     {
@@ -32,7 +23,7 @@
       "severity": "warning",
       "first_seen": "2026-08-26T02:18:41Z",
       "evidence": {
-        "count_1h": 46
+        "count_1h": 40
       }
     }
   ],
@@ -51,7 +42,7 @@
   "telegram": {
     "probe_ok": false,
     "probe_status": "connect_timeout",
-    "consecutive_failures": 2,
+    "consecutive_failures": 1,
     "proxy_matches_expected": true
   },
   "kernel": {
