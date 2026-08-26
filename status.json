@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-26T21:03:53Z",
+  "updated_at": "2026-08-26T21:13:53Z",
   "overall": "warning",
   "issues": [
     {
@@ -34,15 +34,15 @@
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
   "system": {
-    "ram_available_mb": 453.5,
+    "ram_available_mb": 458.0,
     "swap_used_percent": 4.7,
     "disk_used_percent": 57.8,
     "root_read_only": false
   },
   "telegram": {
-    "probe_ok": false,
-    "probe_status": "connect_timeout",
-    "consecutive_failures": 1,
+    "probe_ok": true,
+    "probe_status": "ok",
+    "consecutive_failures": 0,
     "proxy_matches_expected": true
   },
   "kernel": {
