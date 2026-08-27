@@ -1,10 +1,10 @@
 {
-  "updated_at": "2026-08-27T13:21:46Z",
+  "updated_at": "2026-08-27T13:31:51Z",
   "overall": "ok",
   "issues": [],
   "cardinal": {
     "running": true,
-    "rss_mb": 234.7,
+    "rss_mb": 234.8,
     "restarts_1h": 0,
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
