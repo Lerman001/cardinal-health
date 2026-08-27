@@ -1,16 +1,7 @@
 {
-  "updated_at": "2026-08-27T20:54:48Z",
-  "overall": "critical",
+  "updated_at": "2026-08-27T21:04:58Z",
+  "overall": "warning",
   "issues": [
-    {
-      "code": "telegram_unreachable",
-      "severity": "critical",
-      "first_seen": "2026-08-27T20:54:48Z",
-      "evidence": {
-        "failures": 3,
-        "probe": "connect_timeout"
-      }
-    },
     {
       "code": "telegram_connect_timeouts",
       "severity": "warning",
@@ -27,15 +18,15 @@
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
   "system": {
-    "ram_available_mb": 462.2,
+    "ram_available_mb": 460.5,
     "swap_used_percent": 5.3,
-    "disk_used_percent": 58.0,
+    "disk_used_percent": 57.4,
     "root_read_only": false
   },
   "telegram": {
     "probe_ok": false,
     "probe_status": "connect_timeout",
-    "consecutive_failures": 3,
+    "consecutive_failures": 1,
     "proxy_matches_expected": true
   },
   "kernel": {
