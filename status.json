@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T14:32:24Z",
+  "updated_at": "2026-08-27T14:42:31Z",
   "overall": "ok",
   "issues": [],
   "cardinal": {
@@ -9,15 +9,15 @@
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
   "system": {
-    "ram_available_mb": 475.9,
+    "ram_available_mb": 476.2,
     "swap_used_percent": 5.4,
-    "disk_used_percent": 57.9,
+    "disk_used_percent": 58.0,
     "root_read_only": false
   },
   "telegram": {
-    "probe_ok": true,
-    "probe_status": "ok",
-    "consecutive_failures": 0,
+    "probe_ok": false,
+    "probe_status": "connect_timeout",
+    "consecutive_failures": 1,
     "proxy_matches_expected": true
   },
   "kernel": {
