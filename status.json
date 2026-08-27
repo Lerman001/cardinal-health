@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T09:50:39Z",
+  "updated_at": "2026-08-27T10:00:41Z",
   "overall": "warning",
   "issues": [
     {
@@ -7,7 +7,7 @@
       "severity": "warning",
       "first_seen": "2026-08-27T09:35:25Z",
       "evidence": {
-        "count_1h": 5
+        "count_1h": 10
       }
     },
     {
@@ -15,7 +15,15 @@
       "severity": "warning",
       "first_seen": "2026-08-27T09:35:25Z",
       "evidence": {
-        "count_1h": 4
+        "count_1h": 8
+      }
+    },
+    {
+      "code": "many_tracebacks",
+      "severity": "warning",
+      "first_seen": "2026-08-27T10:00:41Z",
+      "evidence": {
+        "count_1h": 20
       }
     }
   ],
@@ -32,9 +40,9 @@
     "root_read_only": false
   },
   "telegram": {
-    "probe_ok": true,
-    "probe_status": "ok",
-    "consecutive_failures": 0,
+    "probe_ok": false,
+    "probe_status": "connect_timeout",
+    "consecutive_failures": 1,
     "proxy_matches_expected": true
   },
   "kernel": {
