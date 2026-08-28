@@ -1,7 +1,16 @@
 {
-  "updated_at": "2026-08-28T02:40:54Z",
-  "overall": "ok",
-  "issues": [],
+  "updated_at": "2026-08-28T02:50:55Z",
+  "overall": "warning",
+  "issues": [
+    {
+      "code": "telegram_connect_timeouts",
+      "severity": "warning",
+      "first_seen": "2026-08-28T02:45:54Z",
+      "evidence": {
+        "count_1h": 6
+      }
+    }
+  ],
   "cardinal": {
     "running": true,
     "rss_mb": 230.8,
