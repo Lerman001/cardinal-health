@@ -1,7 +1,24 @@
 {
-  "updated_at": "2026-08-28T03:00:55Z",
-  "overall": "ok",
-  "issues": [],
+  "updated_at": "2026-08-28T03:10:55Z",
+  "overall": "warning",
+  "issues": [
+    {
+      "code": "telegram_connect_timeouts",
+      "severity": "warning",
+      "first_seen": "2026-08-28T03:05:55Z",
+      "evidence": {
+        "count_1h": 5
+      }
+    },
+    {
+      "code": "telegram_read_timeouts",
+      "severity": "warning",
+      "first_seen": "2026-08-28T03:05:55Z",
+      "evidence": {
+        "count_1h": 4
+      }
+    }
+  ],
   "cardinal": {
     "running": true,
     "rss_mb": 230.8,
@@ -9,7 +26,7 @@
     "started_at": "Sun 2026-08-23 14:11:15 UTC"
   },
   "system": {
-    "ram_available_mb": 483.4,
+    "ram_available_mb": 483.0,
     "swap_used_percent": 5.2,
     "disk_used_percent": 57.4,
     "root_read_only": false
