@@ -1,33 +1,23 @@
 {
-  "updated_at": "2026-08-28T21:26:17Z",
-  "overall": "warning",
-  "issues": [
-    {
-      "code": "telegram_probe_failed",
-      "severity": "warning",
-      "first_seen": "2026-08-28T21:26:17Z",
-      "evidence": {
-        "failures": 2,
-        "probe": "connect_timeout"
-      }
-    }
-  ],
+  "updated_at": "2026-08-28T21:36:24Z",
+  "overall": "ok",
+  "issues": [],
   "cardinal": {
     "running": true,
-    "rss_mb": 147.9,
+    "rss_mb": 134.7,
     "restarts_1h": 0,
     "started_at": "Fri 2026-08-28 20:14:36 UTC"
   },
   "system": {
-    "ram_available_mb": 551.6,
+    "ram_available_mb": 574.9,
     "swap_used_percent": 4.8,
     "disk_used_percent": 57.4,
     "root_read_only": false
   },
   "telegram": {
-    "probe_ok": false,
-    "probe_status": "connect_timeout",
-    "consecutive_failures": 2,
+    "probe_ok": true,
+    "probe_status": "ok",
+    "consecutive_failures": 0,
     "proxy_matches_expected": true
   },
   "kernel": {
