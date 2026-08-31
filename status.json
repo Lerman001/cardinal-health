@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-08-31T02:18:27Z",
+  "updated_at": "2026-08-31T02:28:28Z",
   "overall": "ok",
   "issues": [],
   "cardinal": {
     "running": true,
-    "rss_mb": 284.6,
+    "rss_mb": 284.5,
     "restarts_1h": 0,
     "started_at": "Fri 2026-08-28 20:14:36 UTC"
   },
   "system": {
-    "ram_available_mb": 431.2,
+    "ram_available_mb": 429.1,
     "swap_used_percent": 4.7,
     "disk_used_percent": 57.3,
     "root_read_only": false
   },
   "telegram": {
-    "probe_ok": true,
-    "probe_status": "ok",
-    "consecutive_failures": 0,
+    "probe_ok": false,
+    "probe_status": "connect_timeout",
+    "consecutive_failures": 1,
     "proxy_matches_expected": true
   },
   "kernel": {
