@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-31T10:18:21Z",
+  "updated_at": "2026-08-31T10:28:31Z",
   "overall": "warning",
   "issues": [
     {
@@ -7,16 +7,22 @@
       "severity": "warning",
       "first_seen": "2026-08-31T09:52:51Z",
       "evidence": {}
+    },
+    {
+      "code": "telegram_proxy_changed",
+      "severity": "warning",
+      "first_seen": "2026-08-31T10:23:24Z",
+      "evidence": {}
     }
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 161.7,
-    "restarts_1h": 1,
-    "started_at": "Mon 2026-08-31 09:51:08 UTC"
+    "rss_mb": 138.6,
+    "restarts_1h": 2,
+    "started_at": "Mon 2026-08-31 10:20:40 UTC"
   },
   "system": {
-    "ram_available_mb": 549.2,
+    "ram_available_mb": 576.4,
     "swap_used_percent": 4.7,
     "disk_used_percent": 57.4,
     "root_read_only": false
@@ -25,7 +31,7 @@
     "probe_ok": true,
     "probe_status": "ok",
     "consecutive_failures": 0,
-    "proxy_matches_expected": true
+    "proxy_matches_expected": false
   },
   "kernel": {
     "oom_1h": 0,
