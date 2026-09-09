@@ -1,7 +1,13 @@
 {
-  "updated_at": "2026-09-09T10:49:45Z",
+  "updated_at": "2026-09-09T11:00:01Z",
   "overall": "warning",
   "issues": [
+    {
+      "code": "cardinal_restarted",
+      "severity": "warning",
+      "first_seen": "2026-09-09T11:00:01Z",
+      "evidence": {}
+    },
     {
       "code": "telegram_proxy_changed",
       "severity": "warning",
@@ -11,13 +17,13 @@
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 143.9,
-    "restarts_1h": 0,
-    "started_at": "Mon 2026-08-31 10:20:40 UTC"
+    "rss_mb": 248.2,
+    "restarts_1h": 1,
+    "started_at": "Wed 2026-09-09 10:55:07 UTC"
   },
   "system": {
-    "ram_available_mb": 556.6,
-    "swap_used_percent": 4.9,
+    "ram_available_mb": 468.4,
+    "swap_used_percent": 4.7,
     "disk_used_percent": 57.3,
     "root_read_only": false
   },
