@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T00:37:41Z",
+  "updated_at": "2026-09-16T00:48:01Z",
   "overall": "warning",
   "issues": [
     {
@@ -11,12 +11,12 @@
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 162.6,
+    "rss_mb": 153.4,
     "restarts_1h": 0,
     "started_at": "Mon 2026-09-14 18:25:02 UTC"
   },
   "system": {
-    "ram_available_mb": 523.7,
+    "ram_available_mb": 537.4,
     "swap_used_percent": 4.7,
     "disk_used_percent": 58.0,
     "root_read_only": false
