@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T08:15:21Z",
+  "updated_at": "2026-09-29T08:25:41Z",
   "overall": "warning",
   "issues": [
     {
@@ -16,7 +16,7 @@
     "started_at": "Mon 2026-09-14 18:25:02 UTC"
   },
   "system": {
-    "ram_available_mb": 390.6,
+    "ram_available_mb": 383.6,
     "swap_used_percent": 9.2,
     "disk_used_percent": 55.5,
     "root_read_only": false
