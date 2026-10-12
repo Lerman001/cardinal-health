@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T14:04:51Z",
+  "updated_at": "2026-10-12T14:15:01Z",
   "overall": "warning",
   "issues": [
     {
@@ -24,9 +24,9 @@
     "started_at": "Sun 2026-10-11 13:11:01 UTC"
   },
   "system": {
-    "ram_available_mb": 380.6,
+    "ram_available_mb": 377.7,
     "swap_used_percent": 5.0,
-    "disk_used_percent": 59.3,
+    "disk_used_percent": 59.2,
     "root_read_only": false
   },
   "telegram": {
