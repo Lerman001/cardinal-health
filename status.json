@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T13:17:41Z",
+  "updated_at": "2026-10-13T13:27:49Z",
   "overall": "warning",
   "issues": [
     {
@@ -11,7 +11,7 @@
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 154.6,
+    "rss_mb": 151.5,
     "restarts_1h": 0,
     "started_at": "Sun 2026-10-11 13:11:01 UTC"
   },
