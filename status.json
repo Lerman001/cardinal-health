@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21T21:09:02Z",
+  "updated_at": "2026-10-21T21:19:03Z",
   "overall": "warning",
   "issues": [
     {
@@ -7,24 +7,65 @@
       "severity": "warning",
       "first_seen": "2026-08-31T10:23:24Z",
       "evidence": {}
+    },
+    {
+      "code": "telegram_probe_failed",
+      "severity": "warning",
+      "first_seen": "2026-10-21T21:19:03Z",
+      "evidence": {
+        "failures": 2,
+        "probe": "connect_timeout"
+      }
+    },
+    {
+      "code": "telegram_connect_timeouts",
+      "severity": "warning",
+      "first_seen": "2026-10-21T21:19:03Z",
+      "evidence": {
+        "count_1h": 29
+      }
+    },
+    {
+      "code": "telegram_read_timeouts",
+      "severity": "warning",
+      "first_seen": "2026-10-21T21:19:03Z",
+      "evidence": {
+        "count_1h": 4
+      }
+    },
+    {
+      "code": "telegram_connection_errors",
+      "severity": "warning",
+      "first_seen": "2026-10-21T21:19:03Z",
+      "evidence": {
+        "count_1h": 18
+      }
+    },
+    {
+      "code": "many_tracebacks",
+      "severity": "warning",
+      "first_seen": "2026-10-21T21:19:03Z",
+      "evidence": {
+        "count_1h": 58
+      }
     }
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 134.8,
+    "rss_mb": 134.7,
     "restarts_1h": 0,
     "started_at": "Sun 2026-10-11 13:11:01 UTC"
   },
   "system": {
-    "ram_available_mb": 574.2,
+    "ram_available_mb": 580.0,
     "swap_used_percent": 4.7,
     "disk_used_percent": 59.6,
     "root_read_only": false
   },
   "telegram": {
-    "probe_ok": true,
-    "probe_status": "ok",
-    "consecutive_failures": 0,
+    "probe_ok": false,
+    "probe_status": "connect_timeout",
+    "consecutive_failures": 2,
     "proxy_matches_expected": false
   },
   "kernel": {
