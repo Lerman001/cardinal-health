@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-05T19:19:41Z",
+  "updated_at": "2026-11-05T19:30:02Z",
   "overall": "critical",
   "issues": [
     {
       "code": "ram_critical",
       "severity": "critical",
-      "first_seen": "2026-11-05T19:14:32Z",
+      "first_seen": "2026-11-05T19:30:02Z",
       "evidence": {}
     },
     {
@@ -17,13 +17,13 @@
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 517.6,
+    "rss_mb": 581.8,
     "restarts_1h": 0,
     "started_at": "Sun 2026-10-11 13:11:01 UTC"
   },
   "system": {
-    "ram_available_mb": 74.8,
-    "swap_used_percent": 45.1,
+    "ram_available_mb": 43.5,
+    "swap_used_percent": 9.4,
     "disk_used_percent": 61.9,
     "root_read_only": false
   },
