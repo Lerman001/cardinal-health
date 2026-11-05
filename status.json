@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T16:08:31Z",
+  "updated_at": "2026-11-05T16:18:38Z",
   "overall": "warning",
   "issues": [
     {
@@ -13,7 +13,7 @@
       "severity": "warning",
       "first_seen": "2026-11-05T15:02:11Z",
       "evidence": {
-        "count_1h": 52
+        "count_1h": 66
       }
     },
     {
@@ -21,7 +21,15 @@
       "severity": "warning",
       "first_seen": "2026-11-05T14:31:47Z",
       "evidence": {
-        "count_1h": 56
+        "count_1h": 72
+      }
+    },
+    {
+      "code": "telegram_connection_errors",
+      "severity": "warning",
+      "first_seen": "2026-11-05T16:18:38Z",
+      "evidence": {
+        "count_1h": 4
       }
     },
     {
@@ -29,7 +37,7 @@
       "severity": "warning",
       "first_seen": "2026-11-05T15:32:47Z",
       "evidence": {
-        "count_1h": 104
+        "count_1h": 132
       }
     }
   ],
@@ -40,9 +48,9 @@
     "started_at": "Sun 2026-10-11 13:11:01 UTC"
   },
   "system": {
-    "ram_available_mb": 500.1,
+    "ram_available_mb": 413.7,
     "swap_used_percent": 6.1,
-    "disk_used_percent": 61.2,
+    "disk_used_percent": 61.8,
     "root_read_only": false
   },
   "telegram": {
