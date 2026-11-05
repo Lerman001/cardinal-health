@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-05T19:09:22Z",
-  "overall": "warning",
+  "updated_at": "2026-11-05T19:19:41Z",
+  "overall": "critical",
   "issues": [
     {
-      "code": "ram_low",
-      "severity": "warning",
-      "first_seen": "2026-11-05T19:09:22Z",
+      "code": "ram_critical",
+      "severity": "critical",
+      "first_seen": "2026-11-05T19:14:32Z",
       "evidence": {}
     },
     {
@@ -17,14 +17,14 @@
   ],
   "cardinal": {
     "running": true,
-    "rss_mb": 573.3,
+    "rss_mb": 517.6,
     "restarts_1h": 0,
     "started_at": "Sun 2026-10-11 13:11:01 UTC"
   },
   "system": {
-    "ram_available_mb": 80.0,
-    "swap_used_percent": 8.1,
-    "disk_used_percent": 61.8,
+    "ram_available_mb": 74.8,
+    "swap_used_percent": 45.1,
+    "disk_used_percent": 61.9,
     "root_read_only": false
   },
   "telegram": {
