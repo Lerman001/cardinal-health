@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-11-06T21:09:52Z",
-  "overall": "critical",
+  "updated_at": "2026-11-06T21:20:11Z",
+  "overall": "warning",
   "issues": [
     {
-      "code": "cardinal_not_running",
-      "severity": "critical",
-      "first_seen": "2026-11-06T21:09:52Z",
+      "code": "disk_high",
+      "severity": "warning",
+      "first_seen": "2026-11-06T21:15:02Z",
       "evidence": {}
     },
     {
@@ -16,15 +16,15 @@
     }
   ],
   "cardinal": {
-    "running": false,
-    "rss_mb": 0,
+    "running": true,
+    "rss_mb": 132.8,
     "restarts_1h": 0,
-    "started_at": "Thu 2026-11-05 19:49:09 UTC"
+    "started_at": "Fri 2026-11-06 21:16:20 UTC"
   },
   "system": {
-    "ram_available_mb": 662.0,
+    "ram_available_mb": 480.3,
     "swap_used_percent": 5.0,
-    "disk_used_percent": 79.6,
+    "disk_used_percent": 94.6,
     "root_read_only": false
   },
   "telegram": {
