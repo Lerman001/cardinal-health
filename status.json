@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T09:51:12Z",
+  "updated_at": "2026-11-07T10:01:31Z",
   "overall": "critical",
   "issues": [
     {
@@ -9,9 +9,9 @@
       "evidence": {}
     },
     {
-      "code": "disk_high",
-      "severity": "warning",
-      "first_seen": "2026-11-06T21:15:02Z",
+      "code": "disk_critical",
+      "severity": "critical",
+      "first_seen": "2026-11-07T09:56:17Z",
       "evidence": {}
     },
     {
@@ -28,9 +28,9 @@
     "started_at": "Fri 2026-11-06 21:16:20 UTC"
   },
   "system": {
-    "ram_available_mb": 630.6,
-    "swap_used_percent": 4.9,
-    "disk_used_percent": 91.7,
+    "ram_available_mb": 675.5,
+    "swap_used_percent": 4.8,
+    "disk_used_percent": 95.9,
     "root_read_only": false
   },
   "telegram": {
